@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Profile Creating</title>
+	</head>
+	<body>
+		<form action="http://localhost:8080/FirstServletProject/createProfile " method="post">
+			<fieldset> <legend> Students App </legend>
+			<table>
+				<tr><td>
+						<fieldset> 
+							<legend>Profile Related Info</legend>
+							<table>
+								<tr><td>RegNo:</td> <td><input type=text name="regno"> </td></tr>
+								<tr><td> Password:</td><td> <input type="password" name="pass"> </td></tr> 
+								<tr><td> Is Admin:</td>
+									<td> <select name="isadmin">
+										<option>---Select---</option>
+										<option value="y">Yes</option>
+										<option value="n">No</option>
+										</select> 
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+					</td>
+					<td>
+						<fieldset> 
+							<legend>Course Related Info</legend>
+							<table>
+								<tr><td>Core Java<input type="checkbox" name="course" value="crs1"> </td>
+									<td>J2EE<input type="checkbox" name="course" value="crs2"> </td>
+								</tr>
+								<tr><td>SQL<input type="checkbox" name="course" value="crs3"> </td>
+									<td>HTML<input type="checkbox" name="course" value="crs4"> </td>
+								</tr>
+								<tr>
+									<td>Hibernet<input type="checkbox" name="course" value="crs5"> </td>
+									<td>Springs<input type="checkbox" name="course" value="crs6"> 
+								</tr>
+								<tr>
+									<td>Angular JS<input type="checkbox" name="course" value="crs7"> </td>
+									<td>Web Services<input type="checkbox" name="course" value="crs8"> </td>
+								</tr>
+								<tr>
+									<td>General Aptitude<input type="checkbox" name="course" value="crs9"> </td>
+									<td>Android<input type="checkbox" name="course" value="crs10"> </td>
+								</tr>
+							</table>
+						</fieldset>
+					</td></tr>
+					
+					<tr><td>
+						<fieldset> 
+							<legend>Student Basic Info</legend>
+							<table>
+								<tr><td>Student First Name:</td><td><input type=text name="stdfirnm"> </td></tr>
+								<tr><td>Student Middle Name:</td><td><input type="text" name="stdmdlnm"> </td></tr> 
+								<tr><td>Student Last Name:</td><td><input type="text" name="stdlstnm"> </td></tr>
+							</table>
+						</fieldset>
+					</td>
+					<td>
+						<fieldset> 
+							<legend>Guardian Basic Info</legend>
+							<table>
+								<tr><td>Guardian First Name:</td><td><input type=text name="guafirnm"> </td></tr>
+								<tr><td>Guardian Middle Name:</td><td><input type="text" name="guamdlnm"> </td></tr> 
+								<tr><td>Guardian Last Name:</td><td><input type="text" name="gualstnm"> </td></tr>
+							</table>
+						</fieldset>
+					</td></tr>
+					
+					<tr><td>
+						<fieldset> 
+							<legend>Student Present Address</legend>
+							<table>
+								<tr><td>Address1:</td><td><input type=text name="addr1"> </td></tr>
+								<tr><td>Address2:</td><td><input type="text" name="addr2"> </td></tr> 
+								<tr><td>landmark:</td><td><input type="text" name="lnmark"> </td></tr>
+								<tr><td>City:</td><td><input type="text" name="city"> </td></tr> 
+								<tr><td>Pincode:</td><td><input type="text" name="pincode"> </td></tr>
+							</table>
+						</fieldset>
+					</td><td>
+						<fieldset> 
+							<legend>Student Permanent Address</legend>
+							<table>
+								<tr><td>Address1:</td><td><input type=text name="adr1"> </td></tr>
+								<tr><td>Address2:</td><td><input type="text" name="adr2"> </td></tr> 
+								<tr><td>landmark:</td><td><input type="text" name="lndmark"> </td></tr>
+								<tr><td>City:</td><td><input type="text" name="cty"> </td></tr> 
+								<tr><td>Pincode:</td><td><input type="text" name="pncode"> </td></tr>
+							</table>
+						</fieldset>
+					</td></tr> 
+					
+					<tr><td><input type="submit" value="Create Profile" name="crpro"></td>
+						<td><input type="reset" Value="Reset" name="reset"></td>
+					</tr>
+				</table>
+				
+			</fieldset>
+			
+		</form>
+</body>
+</html>
